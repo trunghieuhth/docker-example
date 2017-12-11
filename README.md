@@ -50,17 +50,17 @@ README.md
 ![alt text](https://i.imgur.com/K2aXHsM.png)
 
 ### 3. Tạo Docker repository và link đến Bitbucket
-##### Tạo Docker repository
+#### Tạo Docker repository
+
 Vào https://cloud.docker.com tạo một repository
 
 ![alt text](https://i.imgur.com/BXFK6qQ.png)
 
-##### Link Docker với Bitbucket
+#### Link Docker với Bitbucket
 
 ![alt text](https://i.imgur.com/gIp69XH.png)
 
 ### 4. Config tự động Build
-Mỗi khi push code lên Bitbucket, Docker sẽ tự động build, làm như sau:
 - Vào Docker repository vừa tạo
 - Chọn tag `Builds`
 - Chọn `Source Repository` từ Bitbucket vừa link
